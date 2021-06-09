@@ -86,7 +86,7 @@ class CurrentSong(APIView):
                 artist_string += ", "
             name = artist.get('name')
             artist_string += name
-        
+
         song = {
             'title': item.get('name'),
             'artist': artist_string,
