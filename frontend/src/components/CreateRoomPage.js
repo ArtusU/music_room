@@ -12,9 +12,6 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import { Collapse } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
 
-
-
-
 export default class CreateRoomPage extends Component {
     static defaultProps = {
         votesToSkip: 2,
